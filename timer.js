@@ -31,7 +31,7 @@ var x = setInterval(function() {
   
   //added it
   
-  document2.getElementById("demo2").innerHTML = days2 + "d " + hours2 + "h "
+  document.getElementById("demo2").innerHTML = days2 + "d " + hours2 + "h "
   + minutes2 + "m " + seconds2 + "s ";
 
   // If the count down is finished, write some text 
