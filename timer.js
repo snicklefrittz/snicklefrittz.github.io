@@ -37,7 +37,12 @@ var x = setInterval(function() {
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Good Bye Currnet Contract";
+    document.getElementById("demo").innerHTML = "Already Done Been Paid";
+  }
+  
+  if (distance2 < 0) {
+	clearInterval (x);
+	document.getElementById("demo2").innerHTML = "I'm unemployed";
   }
 }, 1000);
 
